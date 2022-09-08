@@ -12,14 +12,16 @@ const Hero = () => (
   <Section raw nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hi there, <br />
+        I'm Christopher Mariano
       </SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.(Write Value Preposition, what you could offer or help them
-        build)
+        I'm a Blockchain App Developer. I build Web3 Apps with Solidity. I test
+        and deploy them using Javascript/Typescript(Hardhat Environment). I
+        mostly use Nextjs for building the UI. Please view some of my projects
+        below. App(for the App site), Code-B(For github backend), Code-F(For
+        github frontend). Please also do view my Github if you wish to view my
+        other projects and experiments.
       </SectionText>
       <Button onclick={() => (window.location = "https://google.com")}>
         Learn More

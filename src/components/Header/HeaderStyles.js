@@ -32,6 +32,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
+  margin-top: 70px;
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
@@ -46,7 +47,7 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 2 / 2 / 3 / 5;
   }
 `;
 
@@ -124,4 +125,14 @@ export const SocialIcons = styled.a`
     transform: scale(1.2);
     cursor: pointer;
   }
+`;
+
+// Image
+
+export const Img = styled.img`
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
 `;

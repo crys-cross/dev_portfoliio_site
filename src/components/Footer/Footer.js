@@ -23,22 +23,20 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-1111">tel:111-111-1111</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@email.com">
-            contact@email.com"
+            mariano.christopher123@gmail.com"
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time.</Slogan>
+          <Slogan>
+            Keep Learning, keep building, keep improving for a better tomorrow.
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/crys-cross">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://linkedin.com">

@@ -16,42 +16,43 @@ import {
 
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider />
-    <br />
+    <SectionDivider /> <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       {" "}
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      I've worked with a range a technologies in the web3 development world.
+      From Blockchain, Back-end To Front-end
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        {/* <DiFirebase size="3rem" /> */}
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Blockchain</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            Tools like Hardhat <br />
+            (Solidity and JavaScript)
           </ListParagraph>
         </ListContainer>
       </ListItem>{" "}
       <ListItem>
-        <DiFirebase size="3rem" />
+        {/* <DiFirebase size="3rem" /> */}
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js and Moralis
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        {/* <DiReact size="3rem" /> */}
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>FrontEnd</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Tools like Figma
+            Next.Js, React.js <br />
+            TailwindCSS
           </ListParagraph>
         </ListContainer>
       </ListItem>

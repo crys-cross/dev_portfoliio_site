@@ -16,6 +16,7 @@ import {
   NavLink,
   SocialIcons,
   Span,
+  Img,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -30,7 +31,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <Img src={"/images/profile.png"} />
         </a>
       </Link>
     </Div1>
@@ -52,7 +53,7 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/crys-cross">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://linkedin.com">

@@ -19,59 +19,68 @@ import {
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+// const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  const [activeItem, setActiveItem] = useState(0);
-  const carouselRef = useRef();
+  // const [activeItem, setActiveItem] = useState(0);
+  // const carouselRef = useRef();
 
-  const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
-  };
+  // // const scroll = (node, left) => {
+  // //   return node.scrollTo({ left, behavior: "smooth" });
+  // // };
 
-  const handleClick = (e, i) => {
-    e.preventDefault();
+  // const handleClick = (e, i) => {
+  //   e.preventDefault();
 
-    if (carouselRef.current) {
-      const scrollLeft = Math.floor(
-        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
-      );
+  //   if (carouselRef.current) {
+  //     const scrollLeft = Math.floor(
+  //       carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+  //     );
 
-      scroll(carouselRef.current, scrollLeft);
-    }
-  };
+  //     scroll(carouselRef.current, scrollLeft);
+  //   }
+  // };
 
-  const handleScroll = () => {
-    if (carouselRef.current) {
-      const index = Math.round(
-        (carouselRef.current.scrollLeft /
-          (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
-      );
+  // const handleScroll = () => {
+  //   if (carouselRef.current) {
+  //     const index = Math.round(
+  //       (carouselRef.current.scrollLeft /
+  //         (carouselRef.current.scrollWidth * 0.7)) *
+  //         TimeLineData.length
+  //     );
 
-      setActiveItem(index);
-    }
-  };
+  //     setActiveItem(index);
+  //   }
+  // };
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
-  useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    };
+  // // // snap back to beginning of scroll when window is resized
+  // // // avoids a bug where content is covered up if coming from smaller screen
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     scroll(carouselRef.current, 0);
+  //   };
 
-    window.addEventListener("resize", handleResize);
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  // }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.(How did you learn, Big milestones, etc)
+        I was in sales and business development for about 10 years. From
+        pharmaceutical to FMCG(Fast Moving Consumer Goods). In all those years I
+        have been inconvenienced with companies using old and ineefficient
+        technologies. Also broken goals by broken promises after some agreed
+        upon negotiations were never fullfilled. During the pandemic most of
+        these inconveniences became more apparent. It was during this time that
+        I came to know about DEFI and NFT. I got to know about smartcontract
+        that it is trustless and permissionless. Believing the value this
+        technology could bring, I started learning and building on Web3 since
+        earlier this year. Planning and Hoping to build helpful apps with this
+        technology in the near future. I'm also a Licensed Nurse but only
+        participating on minor activities.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -138,7 +147,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      <SectionDivider /> */}
     </Section>
   );
 };
