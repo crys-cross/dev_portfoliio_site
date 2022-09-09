@@ -23,7 +23,9 @@ const Hero = () => (
         github frontend). Please also do view my Github if you wish to view my
         other projects and experiments.
       </SectionText>
-      <Button onclick={() => (window.location = "https://google.com")}>
+      <Button
+        onclick={() => (window.location = "https://github.com/crys-cross")}
+      >
         Learn More
       </Button>
     </LeftSection>

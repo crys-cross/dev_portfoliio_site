@@ -25,7 +25,7 @@ export const projects = [
     title: "Blockchain Genshin NFT",
     description:
       "I also played some Gacha games in the past. I wanted to showcase a gacha system on chain. With the help of chainlink for randomization, I designed as close as possible system on chain. Try your luck on getting the character you wish for.  No copyright infringement intended since all properties belong to Hoyoverse.",
-    image: "/images/3.jpg",
+    image: "/images/3.png",
     tags: ["Solidity", "TypeScript", "JavaScript", "Nextjs"],
     app: "https://google.com",
     source: "https://google.com",
@@ -36,7 +36,7 @@ export const projects = [
     title: "NFT Marketplace",
     description:
       "This was built with the help of freeCodeCamp Course by Mr. Patrick Collins. A big thanks to him and FreeCodeCamp in general so that I could showcase an NFT Marketplace. Currently only deployed on testnet and some of my NFT above is for sale there for display as this is for Demo only for now.",
-    image: "/images/4.jpg",
+    image: "/images/4.png",
     tags: ["Solidity", "TypeScript", "Nextjs", "Moralis"],
     app: "https://google.com",
     source: "https://google.com",
