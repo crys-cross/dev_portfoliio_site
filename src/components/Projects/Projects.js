@@ -49,7 +49,7 @@ const Projects = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                APP
+                DAPP
               </ExternalLinks>
               <ExternalLinks
                 href={visit}
